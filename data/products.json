@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Polenta",
+        "id": 0,
+        "detail": "Peroncho de mi corazon no busque mas, aqui tienes lo que quieres",
+        "price": 2000,
+        "img": "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/13/Arcor_Presto_Pronta_Polenta_Instantánea,_730_g.webp"
+    },
+    {
+        "name": "Choripan",
+        "id": 1,
+        "detail":"Agarrate un chori y pedi un plan, el suenio argentino",
+        "price": 1000,
+        "img": "https://t2.uc.ltmcdn.com/es/posts/7/7/5/como_hacer_choripan_42577_orig.jpg"
+    },
+    {
+        "name": "Mate Cocido",
+        "id": 2,
+        "detail": "Tenes hambre?, Toma llena la panza",
+        "price": 0,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Green_Mate_%28as_tea_European_style%29.jpg"
+    }
+]
