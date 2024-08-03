@@ -1,17 +1,17 @@
 [
     {
         "name": "Polenta",
-        "category" : "comida",
+        "category" : "Comida",
         "id": 0,
-        "detail": "Peroncho de mi corazon no busque mas, aqui tienes lo que quieres",
+        "detail": "Descripcion generica Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore qui et optio voluptates vel accusantium consequuntur, fugiat perferendis, facilis, numquam odio atque magnam expedita aspernatur possimus nobis voluptas suscipit libero!",
         "price": 2000,
         "img": "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/13/Arcor_Presto_Pronta_Polenta_Instantánea,_730_g.webp"
     },
     {
         "name": "Choripan",
-        "category" : "comida",
+        "category" : "Comida",
         "id": 1,
-        "detail":"Agarrate un chori y pedi un plan, el suenio argentino",
+        "detail":"Descripcion generica Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore qui et optio voluptates vel accusantium consequuntur, fugiat perferendis, facilis, numquam odio atque magnam expedita aspernatur possimus nobis voluptas suscipit libero!",
         "price": 1000,
         "img": "https://t2.uc.ltmcdn.com/es/posts/7/7/5/como_hacer_choripan_42577_orig.jpg"
     },
@@ -19,8 +19,8 @@
         "name": "Mate Cocido",
         "category" : "infuciones",
         "id": 2,
-        "detail": "Tenes hambre?, Toma llena la panza",
+        "detail": "Descripcion generica Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore qui et optio voluptates vel accusantium consequuntur, fugiat perferendis, facilis, numquam odio atque magnam expedita aspernatur possimus nobis voluptas suscipit libero!",
         "price": 0,
-        "img": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Green_Mate_%28as_tea_European_style%29.jpg"
+        "img": "https://media.istockphoto.com/id/178433002/es/foto/taza-de-té-con-hojas-de-menta-y-flores-de-manzanilla.jpg?s=612x612&w=0&k=20&c=06kT9c1b_y9RMYswsY3wSyMEwVg1FktR7Dw5sE57JFo="
     }
 ]

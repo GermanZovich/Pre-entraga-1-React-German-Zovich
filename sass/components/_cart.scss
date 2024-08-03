@@ -1,0 +1,23 @@
+.contenedorTarjeta{
+    border: 1px solid #888888;
+    border-radius: 2rem;
+
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    
+    font-size: 1.2rem;
+
+
+    @include flexbox(end, center, column);
+    margin-top: 1rem;
+    img{
+
+        
+        width: 90%;
+        height: 60%;
+        border-radius: 1rem;
+        
+        
+    }
+}

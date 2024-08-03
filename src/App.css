@@ -1,0 +1,87 @@
+#root {
+  margin: auto;
+  width: 90vw;
+  margin-left: 4vw;
+}
+
+.carritoTarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  margin-top: 10rem;
+}
+
+.navBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  font-size: 1.5rem;
+  color: #000;
+}
+.navBarContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-arround;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+.navBarContainer ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cartWidget {
+  color: #000;
+}
+
+.contenedorTarjeta {
+  border: 1px solid #888888;
+  border-radius: 2rem;
+  width: 30vw;
+  height: 50vh;
+  overflow: hidden;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1rem;
+}
+.contenedorTarjeta img {
+  width: 90%;
+  height: 60%;
+  border-radius: 1rem;
+}
+
+.detailProd {
+  display: flex;
+  flex-direction: "row";
+  justify-content: "center";
+  align-items: "center";
+}
+.detailProd img {
+  width: 30rem;
+  height: 25rem;
+}
+
+.contDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=App.css.map */

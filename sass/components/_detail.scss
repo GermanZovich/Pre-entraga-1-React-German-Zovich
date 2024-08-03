@@ -1,0 +1,15 @@
+.detailProd{
+
+    @include flexbox();
+    img{
+        width: 30rem;
+        height: 25rem;
+    }
+}
+
+.contDetail{
+    @include flexbox(center, left, column);
+    font-size: 1.5rem;
+
+    padding:2rem;
+}

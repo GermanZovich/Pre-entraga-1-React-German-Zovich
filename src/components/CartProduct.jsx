@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 export const CartProduct = (props) => {
-    return (<div className="ContenedorTarjeta">
+    return (<div className="contenedorTarjeta">
         <img src={props.img}></img>
         <p>{props.name}</p>
         <p>{props.detail}</p>

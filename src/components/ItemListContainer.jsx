@@ -13,7 +13,7 @@ export const ItemListContainer = () => {
 
     useEffect(() => {
         new Promise((resolve, reject) => {
-            setTimeout(() => {resolve(data)}, 3000);
+            setTimeout(() => {resolve(data)}, 1000);
         }).then((response) => {
             if(!id){
                 setItems(response);
@@ -31,11 +31,13 @@ export const ItemListContainer = () => {
     if(items.length === 0) return <>No hay productos disponibles</>
     return <>
         <h1>Productos</h1>
+        <div className="carritoTarjetas">
         {
             items.map((i) => {
-                return <CartProduct key={i.id} name={i.name} detail={i.detail} img={i.img}
-                link={`/item/${i.id}`} linkName={"Mas info"}/>;
+                return  <CartProduct key={i.id} name={i.name} detail={i.detail} img={i.img}
+                link={`/item/${i.id}`} linkName={"Mas info"}/>
             })
         }
+        </div>
         </>
 };
