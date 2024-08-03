@@ -4,6 +4,6 @@ export const CartProduct = (props) => {
         <img src={props.img}></img>
         <p>{props.name}</p>
         <p>{props.detail}</p>
-        <Link to={props.link}><button>{props.linkName}</button></Link>
+        <Link to={props.link}><button className="boton">{props.linkName}</button></Link>
     </div>);
 }

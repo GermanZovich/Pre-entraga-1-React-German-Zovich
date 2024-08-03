@@ -28,13 +28,13 @@ export const ItemDetailContainer = () => {
     return( <>
         <h1>Producto</h1>
         <div className="detailProd">
-            <img src={item.img}></img>
+            <img className="imgDetail" src={item.img}></img>
             <div className="contDetail">
                 <p>{item.name}</p>
                 <p>{item.category}</p>
                 
                 <p>{item.detail}</p>
-                <Link to="/"><button>Home</button></Link>
+                <Link to="/"><button className="boton">Home</button></Link>
             </div>
         </div>
         </>)
